@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, lightblue, #87CEEB, darkblue) repeat-y;
+  background-size: 100% 400%;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 2px black;
+  margin-top: 75px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 2px black;
+}
+
+.top-rectangle {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.fdpbutton {
+  background-color: #4a4a4a;
+  border: 2px solid black;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 40px;
+}
